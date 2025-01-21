@@ -6,7 +6,6 @@ int main(void) {
   // Standard date form
   printf("Enter date (mm/dd/yyyy): ");
   // Split the user input into 3 variables for the date
-  // Don't worry about the `scanf()` below, you'll learn more about these later!
   scanf("%d /%d /%d", &month, &day, &year);
 
   if(month < 1 || month > 12 || day < 1 || day > 31)
