@@ -41,7 +41,7 @@ We will then loop through both strings and update their respective counters.
 
 We will then compare the two counters to see if the two strings are anagrams and if they are, we will print “Anagram!”. If they are not, we will print “Not Anagram!”
 
-## String Copier
+## String Copier (Code Academy)
 In the lesson on strings, you learned about the `strcpy()` function that is used to copy one string into another string. Recall that `strcpy()` requires two strings: one source string and one destination string. It will copy the contents of the source string into the destination string.
 
 In this project, you will increase your understanding of this function by implementing its functionality. You will see how `strcpy()` works “under the hood.”
