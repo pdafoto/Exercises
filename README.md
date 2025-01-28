@@ -2,7 +2,8 @@
 
 This is a repository of small exercises I do on different courses.
 
-## space.c (Code Academy):
+## Code Academy
+### space.c:
 Little Mac is an interplanetary space boxer, who is trying to win championship belts for various weight categories on other planets within the solar system.
 
 Write a space.c program that helps him keep track of his target weight by: It should ask him what his earth weight is. Ask him to enter a number for the planet he wants to fight on. It should then compute his weight on the destination planet.
@@ -19,7 +20,7 @@ Here is the table of conversion:
 | 6	| Uranus | 0.92 |
 | 7	| Neptune | 1.19 |
 
-## Dates and Switches (Code Academy):
+### date.c:
 This is a classic coding project that utilizes `switch` statement logic to convert a given date into a familiar style displaying the month, day, and year all written out.
 
 It may be complicated to wrap your head around at first, but after considering some cases, it may not be so tricky after all.
@@ -28,7 +29,7 @@ Want to give it a go?
 
 Write a program that takes any user input in the format `mm/dd/yyyy` and prints it out in the style “January 1st, 2021.” (derived in English from whatever input is given).
 
-## Anagram Finder (Code Academy):
+### anagrams.c:
 In this project, we will write a program to determine whether two strings are anagrams or not.
 
 String `y` is an anagram of string `x` if `y` is a rearrangement of string `x`. This implies that y and x have the same letters with the same amount of each letter. Example: “code” and “deco” are anagrams!
@@ -41,7 +42,7 @@ We will then loop through both strings and update their respective counters.
 
 We will then compare the two counters to see if the two strings are anagrams and if they are, we will print “Anagram!”. If they are not, we will print “Not Anagram!”
 
-## String Copier (Code Academy)
+### stringCopy.c
 In the lesson on strings, you learned about the `strcpy()` function that is used to copy one string into another string. Recall that `strcpy()` requires two strings: one source string and one destination string. It will copy the contents of the source string into the destination string.
 
 In this project, you will increase your understanding of this function by implementing its functionality. You will see how `strcpy()` works “under the hood.”
