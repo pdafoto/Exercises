@@ -3,6 +3,15 @@
 This is a repository of small exercises I do on different courses.
 
 ## Code Academy
+### Grocery Store (Program.c):
+#### Part 1:
+Grocery stores have lots of information to keep track of: inventory, customers, prices, sales, employees, shipping, receiving, and on and on. We are going to start building a small part of that here.
+
+For now, we are going to focus on one specific product in a grocery store: apples. We will put together basic information about them and display the information in the end. You will be using the skills you learned about variables in C to do this work. Let’s get started!
+#### Part 2:
+We will start you with our solution to the previous project for our apple information for a grocery store. Our version might be slightly different than what you had. You might also notice a few changes that were not part of the previous project but we will be using these as part of this project. We will get to each of the changes in the appropriate tasks.
+
+We will be adding more information, applying sales, modifying the review score and more.
 ### space.c:
 Little Mac is an interplanetary space boxer, who is trying to win championship belts for various weight categories on other planets within the solar system.
 
@@ -20,7 +29,7 @@ Here is the table of conversion:
 | 6	| Uranus | 0.92 |
 | 7	| Neptune | 1.19 |
 
-### date.c:
+### Dates and Switches (date.c):
 This is a classic coding project that utilizes `switch` statement logic to convert a given date into a familiar style displaying the month, day, and year all written out.
 
 It may be complicated to wrap your head around at first, but after considering some cases, it may not be so tricky after all.
@@ -29,7 +38,18 @@ Want to give it a go?
 
 Write a program that takes any user input in the format `mm/dd/yyyy` and prints it out in the style “January 1st, 2021.” (derived in English from whatever input is given).
 
-### anagrams.c:
+### Fizz Buzz (fizzbuzz.c):
+Fizz Buzz is a classic developer interview question that is asked or referred to so often for so long, it is almost a cliché!
+
+Though this challenge will appear very simplistic to those with some coding experience, it is designed to weed out 99.5% of programming job candidates who cannot creatively use their coding knowledge to solve simple problems.
+
+Want to give it a shot?
+
+Write a fizzbuzz.c program that outputs numbers from 1 to 100.
+
+But for multiples of 3, print `Fizz` instead of the number and for the multiples of 5, print `Buzz`. For numbers which are multiples of both 3 and 5, print `FizzBuzz`.
+
+### Anagram Finder (anagrams.c):
 In this project, we will write a program to determine whether two strings are anagrams or not.
 
 String `y` is an anagram of string `x` if `y` is a rearrangement of string `x`. This implies that y and x have the same letters with the same amount of each letter. Example: “code” and “deco” are anagrams!
@@ -42,7 +62,7 @@ We will then loop through both strings and update their respective counters.
 
 We will then compare the two counters to see if the two strings are anagrams and if they are, we will print “Anagram!”. If they are not, we will print “Not Anagram!”
 
-### stringCopy.c
+### String Copier (stringCopy.c):
 In the lesson on strings, you learned about the `strcpy()` function that is used to copy one string into another string. Recall that `strcpy()` requires two strings: one source string and one destination string. It will copy the contents of the source string into the destination string.
 
 In this project, you will increase your understanding of this function by implementing its functionality. You will see how `strcpy()` works “under the hood.”
