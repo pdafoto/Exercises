@@ -72,3 +72,10 @@ In your code, you will implement the `strcpy()` functionality inside the `copy()
 Recall that a string is an array of type `char`. Also, recall that an array can be traversed using a pointer. A pointer to an array (or string) initially points to the first element (or character) in the array (string).
 
 Inside the `copy()` function, the `char` pointer `src` is pointing to the address of the first character in the source string, and the `dst` pointer is pointing to the first character of the destination string.
+
+### [Mini-Calendar](https://github.com/pdafoto/Exercises/blob/main/mini_calendar.c):
+Have you ever wondered how an online calendar system works? How does it magically figure out the day of the week for any given date? Or, how can it simply jump to a random date 100 days from today? Well, fear not fellow C programmer! In this project, you will learn to make your own mini-calendar with some cool functionalities! The functions that you create will be able to answer simple questions like:
+- Is the given year a leap year?
+- What is the new date 500 days from today?
+
+We will be following the Gregorian Calendar which is the most commonly used calendar format.
