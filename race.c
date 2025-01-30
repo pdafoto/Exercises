@@ -80,12 +80,13 @@ void updateFirstPlace(struct Race* race, struct RaceCar* raceCar1, struct RaceCa
 void startRace(struct RaceCar* raceCar1, struct RaceCar* raceCar2)
 {
   struct Race race = {5, 1, "", ""};
-  while(race.numberOfLaps <= race.numberOfLaps)
+  while(race.currentLap <= race.numberOfLaps)
   {
     updateRaceCar(raceCar1);
     updateRaceCar(raceCar2);
     updateFirstPlace(&race, raceCar1, raceCar2);
     printFirstPlaceAfterLap(race);
+    race.currentLap++;
   }
   printCongratulation(race);
 }
