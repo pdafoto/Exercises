@@ -2,7 +2,7 @@
 
 This is a repository of small exercises I do on different courses.
 
-## Code Academy
+## Codecademy
 ### [Grocery Store](https://github.com/pdafoto/Exercises/blob/main/Program.c):
 #### Part 1:
 Grocery stores have lots of information to keep track of: inventory, customers, prices, sales, employees, shipping, receiving, and on and on. We are going to start building a small part of that here.
