@@ -79,3 +79,8 @@ Have you ever wondered how an online calendar system works? How does it magicall
 - What is the new date 500 days from today?
 
 We will be following the Gregorian Calendar which is the most commonly used calendar format.
+
+### [Race Simulator](https://github.com/pdafoto/Exercises/blob/main/race.c):
+On your mark, get set, GO! Using structures and the rest of your C knowledge we’ll be creating a race simulator.
+
+First we’ll define our complex data types using structures. Then we’ll create some fun print functions to help update our audience. Finally, we’ll implement functions to help with the racing logic and start our race!
